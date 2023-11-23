@@ -44,7 +44,7 @@ public class SettingsManager {
 				return set;
 			}
 		}
-		System.err.println("[Activia] Error Setting NOT found: '" + name +"'!");
+		System.err.println("[Client] Error Setting NOT found: '" + name +"'!");
 		return null;
 	}
 }
